@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.invisible {
+    display: none;
+}
+
+body {
+    height: 100%;
+    background-image: url("images/coffee_background_pc.jpg");
+}
+
+#dark-container {
+    margin: 10px auto;
+    padding: 15px;
+    color: rgb(233, 233, 233);
+    background-color: rgb(23, 22, 22);
+    width: 90vw;
+    max-width: 550px;
+    border-radius: 10px;
+}
+
+.center-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red-btn {
+    width: 50vw;
+    max-width: 400px;
+    height: 50px;
+    background-color: rgb(155, 2, 2);
+    border: 1px solid rgb(90, 0, 0);
+    border-radius: 15px;
+    color: rgb(233, 233, 233);
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.red-btn:hover {
+    background-color: rgb(180, 2, 2);
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px 0 10px;
+}
+
+p,
+label,
+li {
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+    padding: 10px 0;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 1.6rem;
+}
+
+li {
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+select {
+    margin: 10px;
+    width: 60%;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 0 10px 0;
+    cursor: pointer;
+    background-color: rgb(99, 97, 95);
+    color: rgb(233, 233, 233);
+    border: 2px solid #bbb;
+    border-radius: 5px;
+}
+
+.coffee-image {
+    width: 100%;
+    max-width: 450px;
+    max-height: 600px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 575px) {
+    body {
+        background-image: url("images/cofee_for_mobiles.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    p,
+    label,
+    h3,
+    li {
+        font-size: 1.2rem;
+    }
+
+    label {
+        margin-bottom: 10px;
+    }
+
+    select {
+        width: 100%;
+        display: block;
+        margin: 10px 0 20px;
+        font-size: 1.2rem;
+    }
+
+    option {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+}
