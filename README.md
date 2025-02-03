@@ -15,6 +15,9 @@ Welcome to the **Coffee Time App**! This is an interactive web application where
 -   **CSS** for styling and layout.
 -   **JavaScript** to handle logic, fetching data from the API, and rendering it dynamically.
 
+## Live Demo  
+Check out the live version of the project: [See it here](https://magdalenaa96.github.io/Coffee-Time-App/)
+
 ## Data Source
 
 This project uses data from the [SampleAPIs Coffee API](https://sampleapis.com/api-list/coffee), part of the [SampleAPIs project](https://github.com/jermbo/SampleAPIs) created by Jeremy "Jermbo" Lawson. The API is licensed under the [MIT License](https://github.com/jermbo/SampleAPIs/blob/main/LICENSE).
